@@ -3,22 +3,19 @@ button, div, form, input {
 }
 
 img {
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 100px;
+	max-height: 100px;
 }
 
 label {
-    color: #fff;
+    color: white;
 }
 
-.btn-default {
-    color: green;
-    font-size: medium;
-}
+
 
 body {
 	background-image: url("../images/light.jpg");
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica
 }
 
 .holder {
@@ -27,6 +24,17 @@ body {
 
 .jumbotron {
     text-align: center;
+}
+
+
+
+.btn-default {
+    color: green;
+    font-size: larger;
+}
+
+#DisplayedButton {
+    font: 150
 }
 
 
